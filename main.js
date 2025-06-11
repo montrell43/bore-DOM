@@ -38,10 +38,9 @@ imgDiv.style.marginLeft = "10px"
 
 // 10. Append a 16th <li> element to the list using innerHTML.
 const list = document.querySelector('ul');
-list.innerHTML += '<li id="item-17">17</li>'
+list.innerHTML += '<li class="item-17 id="item-17">17</li>'
 
 // 11. Assign the same class as the other list items to the new <li> element using JavaScript.
-const newList = document.querySelector("#item-17");
-newList.innerHTML += '<li class="item-17" id="item-17">17</li>'
 // 12. Populate the new <li> with the text "Never gonna give you up."
+const newList =document.querySelector('.item-17');
 newList.innerText = "Never gonna give you up."
